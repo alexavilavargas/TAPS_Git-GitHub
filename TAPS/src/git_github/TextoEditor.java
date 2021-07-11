@@ -35,7 +35,7 @@ public class TextoEditor extends JFrame {
 	}
 
 	private void addmenu() {
-	
+		// Cria uma barra de menu para o JFrame
 		JMenuBar menuBar = new JMenuBar();
 
 		

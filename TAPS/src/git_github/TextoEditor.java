@@ -38,16 +38,16 @@ public class TextoEditor extends JFrame {
 		// Cria uma barra de menu para o JFrame
 		JMenuBar menuBar = new JMenuBar();
 
-		
+		// Adiciona a barra de menu ao frame
 		this.setJMenuBar(menuBar);
 
-	
+		// Define e adiciona dois menus
 		JMenu fileMenu = new JMenu("Arquivo");
 		JMenu editMenu = new JMenu("Editar");
 		menuBar.add(fileMenu);
 		menuBar.add(editMenu);
 
-	
+		// Cria e adiciona um item simples para o menu
 		JMenuItem menuItemNovo = new JMenuItem("Novo");
 		JMenuItem menuItemAbrir = new JMenuItem("Abrir");
 		JMenuItem menuItemCopiar = new JMenuItem("Copiar");
